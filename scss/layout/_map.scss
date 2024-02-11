@@ -1,0 +1,190 @@
+.map{
+    margin:30px 0px 30px 0px;
+    padding:0px 0px 30px 0px;
+    background-color:black;
+}
+.map1,.map2,.map3,.map4,.map5,.map6,.map7,.map8{
+    display:table;
+    width:100%;
+.map12,.map22,.map32,.map42,.map52,.map62,.map72,.map82{
+    display:inline-block;
+    float:right;
+    width:67%;
+}
+}
+.map11,.map21,.map31,.map41,.map51,.map61,.map71,.map81{
+    display:inline-block;
+    width:33%;
+    float:left;
+background-size:cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent), url('/images/Capitol_Riverfont_WashingtonDC_Park.jpg.webp');
+
+h4{
+    color:white;
+    font-weight:bold;
+    padding:20px 0px 10px 20px;
+    height:30vh;
+}
+h2{
+    color:white;
+    font-weight:bold; 
+    font-size: 40px;
+    padding:0px 0px 10px 20px;
+    letter-spacing: normal;
+}
+p{
+    color:white;
+    font-weight:bold;
+    font-size:16px;
+    padding:20px 0px 10px 20px;
+    font-family: "Brandon Grotesque W01 Regular";
+}
+}
+.map_image{
+width:100%;
+    height:62vh;
+}
+.map11 button,.map21 button,.map31 button,.map41 button,.map51 button,.map61 button,.map71 button,.map81 button {
+    padding: 9px 28px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin:0px 0px 15px 20px;
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        z-index: -2;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: white;
+        transition: all .3s;
+        z-index: -1;
+    }
+
+    &:hover {
+        background-color:white;
+        color:black;
+
+        &:before {
+            width: 100%;
+        }
+    }
+}
+.map21,.map31{
+   background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent), url('/images/Brookland_dc_washington_general.jpg.webp');   
+    
+}
+.map41{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent), url('/images/Anacostia_washington_dc_shops\ 12.11.49\ AM.jpg.webp');   
+}
+.map51{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent), url('/images/dc_washington_adams_morgan_hero_image.jpg.webp');   
+}
+.map61{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent), url('/images/petworth_mural.jpg.webp');   
+}
+.map71{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent), url('/images/Long-View-Gallery-in-Mt-Vernon-Square_2.jpg.webp');   
+}
+.map81{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent), url('/images/Anacostia_washington_dc_shops\ 12.11.49\ AM.jpg.webp');   
+}
+
+.map button.slick-next {
+    right: 25px; 
+}
+.map button.slick-prev {
+    left: 25px;
+}
+.map button.slick-prev.slick-arrow{
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 50%;
+    width: 4%;
+    height: 6vh;
+    font-family: 'slick';
+    position: absolute;
+    top: 95%;
+    left: 1360px;
+}
+.map button.slick-prev.slick-arrow:hover{
+    background-color:#7d3269;
+}
+.map button.slick-next.slick-arrow:hover{
+    background-color:#7d3269;
+}
+.map button.slick-next {
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 50%;
+    width: 4%;
+    height: 6vh;
+    left:10px;
+    position: absolute;
+    top:auto;
+    z-index: 1;
+    display: block;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+.map button.slick-prev {
+    z-index: 1;
+    display: block;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+.map9{
+    position: relative;
+}
+.map9:after{
+    position:absolute;
+    content:'';
+    font-family: fontawesome;
+    background-color:white;
+    width: 85%;
+    height: 2px;
+    left: 110px;
+    bottom: 70px;
+}
+.map9 ul{
+    list-style: none;
+   background-color:black;
+    text-align: center;
+    padding:5px 0px 10px 0px;
+    position: absolute;
+    width: 100%;
+    color:white;
+    bottom: 0px;
+}
+.map9 ul li:before{
+    position:absolute;
+    content:"";
+    width:2px;
+    height:16px;
+    background-color:white;
+    top:-15px;
+}

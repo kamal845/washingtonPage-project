@@ -1,0 +1,1505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Sass project</title>
+</head>
+
+<body>
+    <!------------banner-------------->
+    <div class="wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12" style="padding:0px">
+                    <div id="product__slider">
+                        <div class="Main__navbar">
+                            <nav class="my-navbar navbar">
+                                <div class="left-nav">
+                                    <img src="/images/logo.svg" width="80px" class="navbar__logo" />
+                                    <a class="toggle-side">
+                                        <i class="fa fa-times" aria-hidden="true" onclick="myFunction(this)"
+                                            id="hide"></i>
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                                <div class="right-nav">
+                                    <div class="side-menu">
+                                        <div class="header">
+                                            <div class="navbar-right">
+                                                <ul>
+                                                    <li class="nav-active">Plan Your Trip
+                                                        <div class="nav-active__dropmain">
+                                                            <div class="container-fluid">
+                                                                <div class="row">
+                                                                    <div class="col-md-3">
+                                                                        <div class="nav-active__drop1" id="hide1">
+                                                                            <h3 class="hat1">Neighborhoods
+                                                                                <a href="#demo"
+                                                                                    data-bs-toggle="collapse"
+                                                                                    aria-expanded="false">
+                                                                                    <i class="fa fa-plus"
+                                                                                        aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <div id="demo" class="collapse">
+                                                                                    <p>Adams Morgan Anacostia Brookland
+                                                                                        capitol Hill
+                                                                                        Capitol Riverfront Columbia
+                                                                                        Heights Congress Heights
+                                                                                        Downtown Dupont Circle Foggy
+                                                                                        Bottom Georgetown H
+                                                                                        Street
+                                                                                        NE Ivy City
+                                                                                        Logan Circle Mount Vernon Square
+                                                                                        National Mall NoMa
+                                                                                        penn
+                                                                                        quarter
+                                                                                        & Chinatown Petworth shaw
+                                                                                        southwest & the wharf U
+                                                                                        Street
+                                                                                        Upper north west woodly park
+                                                                                        maryland virginia.</p>
+                                                                                </div>
+                                                                            </h3>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-3">
+                                                                        <div class="nav-active__drop2" id="hide2">
+                                                                            <h3 class="hat2">Things to Do
+                                                                                <a href="#demo1"
+                                                                                    data-bs-toggle="collapse">
+                                                                                    <i class="fa fa-plus"
+                                                                                        aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <div id="demo1" class="collapse">
+                                                                                    <p>Adams Morgan Anacostia Brookland
+                                                                                        capitol Hill
+                                                                                        Capitol Riverfront Columbia
+                                                                                        Heights Congress Heights
+                                                                                        Downtown Dupont Circle Foggy
+                                                                                        Bottom Georgetown H
+                                                                                        Street
+                                                                                        NE Ivy City
+                                                                                        Logan Circle Mount Vernon Square
+                                                                                        National Mall NoMa
+                                                                                        penn
+                                                                                        quarter
+                                                                                        & Chinatown Petworth shaw
+                                                                                        southwest & the wharf U
+                                                                                        Street
+                                                                                        Upper north west woodly park
+                                                                                        maryland virginia.</p>
+                                                                                </div>
+                                                                            </h3>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-3">
+                                                                        <div class="nav-active__drop3">
+                                                                            <h3 class="hat3">Events
+                                                                                <a href="#demo2"
+                                                                                    data-bs-toggle="collapse">
+                                                                                    <i class="fa fa-caret-right"
+                                                                                        aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <div id="demo2" class="collapse">
+                                                                                </div>
+                                                                            </h3>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-3">
+                                                                        <div class="nav-active__drop4" id="hide4">
+                                                                            <h3 class="hat4">Find Your Stay
+                                                                                <a href="#demo3"
+                                                                                    data-bs-toggle="collapse">
+                                                                                    <i class="fa fa-plus"
+                                                                                        aria-hidden="true"></i>
+                                                                                </a>
+                                                                                <div id="demo3" class="collapse">
+                                                                                    <p>Adams Morgan Anacostia Brookland
+                                                                                        capitol Hill
+                                                                                        Capitol Riverfront Columbia
+                                                                                        Heights Congress Heights
+                                                                                        Downtown Dupont Circle Foggy
+                                                                                        Bottom Georgetown H
+                                                                                        Street
+                                                                                        NE Ivy City
+                                                                                        Logan Circle Mount Vernon Square
+                                                                                        National Mall NoMa
+                                                                                        penn
+                                                                                        quarter
+                                                                                        & Chinatown Petworth shaw
+                                                                                        southwest & the wharf U
+                                                                                        Street
+                                                                                        Upper north west woodly park
+                                                                                        maryland virginia.</p>
+                                                                                </div>
+                                                                            </h3>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>Meetings</li>
+                                                    <li>Travel Trade</li>
+                                                    <li>Members</li>
+                                                    <li>Press</li>
+                                                    <li>Sports</li>
+                                                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                                    <i class="fa fa-tripadvisor" aria-hidden="true"></i>
+                                                    <i class="fa fa-globe" aria-hidden="true">
+                                                        <i class="fa fa-caret-down" id="show"
+                                                            aria-hidden="true"></i></i>
+                                                    <ul class="dropdown">
+                                                        <div class="dropdown-content">
+                                                            <li class="nav-link">chinese(Simplified) </li>
+                                                            <li class="nav-link">chinese(Traditional)</li>
+                                                            <li class="nav-link">French</li>
+                                                            <li class="nav-link">German</li>
+                                                            <li class="nav-link">Italian</li>
+                                                            <li class="nav-link">Japanese</li>
+                                                            <li class="nav-link">Korean</li>
+                                                            <li class="nav-link">Portugese</li>
+                                                            <li class="nav-link">Spanish</li>
+                                                        </div>
+                                                    </ul>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="product__slider-main">
+                            <div class="slide">
+                                <div class="slide1">
+                                    <span><a>Experience Washington , DC This<br> Summer</a>
+                                        <p>Your Ultimate Guide to summertime in Washington , Dc <b>See More <i
+                                                    class="fa fa-caret-right" aria-hidden="true"></i> </b></p>
+                                        <div class="scrollable" data-bs-spy="scroll" data-bs-target="#section"
+                                            data-bs-offset="50">
+                                            <a href="#section"><i class="fa fa-angle-double-down"
+                                                    aria-hidden="true"></i></a>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <div class="vertical"> Explore</div>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="slide2">
+                                    <span><a>Guide to Black History & Culture in<br> DC</a>
+                                        <p>Celebrate the cultural significance of African Americans to DC, the nation
+                                            and beyond. <b>See More <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                            </b></p>
+                                        <div class="scrollable" data-bs-spy="scroll" data-bs-target="#section"
+                                            data-bs-offset="50">
+                                            <a href="#section"><i class="fa fa-angle-double-down"
+                                                    aria-hidden="true"></i></a>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <div class="vertical"> Explore</div>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="slide">
+                                <div class="slide3">
+                                    <span><a>The Show Goes On</a>
+                                        <p>
+                                            With 60+ playhouses, 99+ companies and 180+ productions per year,<br> DC's
+                                            theater scene is in a class of its own<br>
+                                            <b>See More <i class="fa fa-caret-right" aria-hidden="true"></i> </b>
+                                        </p>
+                                        <div class="scrollable" data-bs-spy="scroll" data-bs-target="#section"
+                                            data-bs-offset="50">
+                                            <a href="#section"><i class="fa fa-angle-double-down"
+                                                    aria-hidden="true"></i></a>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <div class="vertical"> Explore</div>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product__slider-thmb">
+                            <div class="slide">
+                                <div class="slide11">
+                                    <span><a>Experience Washington , DC This<br> Summer</a>
+                                        <p>Your Ultimate Guide to summertime in Washington , Dc <b>See More <i
+                                                    class="fa fa-caret-right" aria-hidden="true"></i> </b></p>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="slide21">
+                                    <span><a>Guide to Black History & Culture in<br> DC</a>
+                                        <p>Celebrate the cultural significance of African Americans to DC, the nation
+                                            and beyond. <b>See More <i class="fa fa-caret-right" aria-hidden="true"></i>
+                                            </b></p>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="slide31">
+                                    <span><a>The Show Goes On</a>
+                                        <p>
+                                            With 60+ playhouses, 99+ companies and 180+ productions per year, DC's
+                                            theater scene is in a class of its own
+                                            <b>See More <i class="fa fa-caret-right" aria-hidden="true"></i> </b>
+                                        </p>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------first section---------->
+    <div id="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="section1">
+                        <h5><img src="./images/Binoculars.png.webp" alt="photo-section"> Welcome to Washington,DC</h5>
+                        <h3>When was the last time you made a memory in DC?</h3>
+                        <p>Imagine this: A captivating morning paddle on the Potomac River. An afternoon spent roaming
+                            the halls of a Smithsonian museum. An evening enjoying one of DC’s news sports teams. A
+                            monumental meal at a Michelin-starred restaurant.
+                            <br><br> No matter how you spend your time in the nation’s capital, you're sure to leave
+                            with
+                            lifelong memories.
+                        </p>
+                        <button id="button">
+                            <div id="sliding"></div>
+                            <a>I'M IN.</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="section11">
+                        <img src="./images/shullman_guests-at-kintsugi-coffee-shop-in-the-eaton-hotel_yesmydccool.jpg" alt="image-section11"
+                            class="image__section11">
+                        <figcaption> Tour the Library of Congress</figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------- second section--------->
+    <div class="second__secton">
+        <h4 class="hike">Find Out What's Popular Right Now</h4>
+        <div class="second__slider">
+            <div class="second__section_part1">
+                <div class="second__section_image">
+                    <div class="front">
+                        <img src="./images/Cocktail-Group_E3139579-2FF2-49C9-BE2F17F3BA464E67_1d0310f6-97e2-4ad4-919946fee60d5c61.jpg.webp" alt="image__second" class="second__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="second__part11">
+                    <h5>Deals</h5>
+                    <p>Travel Deals & Discounts in Washington, DC</p>
+                </div>
+            </div>
+            <div class="second__section_part2">
+                <div class="second__section_image">
+                    <div class="front">
+                        <img src="./images/arts_district_600x600_web_graphics-06.jpg.webp" alt="image__second"
+                            class="second__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Watch Videos</button>
+                </div>
+                <div class="second__part21">
+                    <h5>Be Inspired Through DC's Best Videos</h5>
+                    <p>
+                        Discover the real DC, from arts and culture to 360-degree video
+                    </p>
+                </div>
+            </div>
+            <div class="second__section_part3">
+                <div class="second__section_image">
+                    <div class="front">
+                        <img src="./images/embassy-performance-during-passport-dc_ddc-photo.jpg.webp"
+                            alt="image__second" class="second__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="second__part31">
+                    <h5>Guide to Free Embassy Tours in Washington, DC During Passport DC</h5>
+                    <p>
+                        Visit Washington, DC during Passport DC, a springtime celebration of...
+                    </p>
+                </div>
+            </div>
+            <div class="second__section_part4">
+                <div class="second__section_image">
+                    <div class="front">
+                        <img src="./images/20230330-3626-Edit.jpg.webp" alt="image__second" class="second__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="second__part41">
+                    <h5>Things to Do for Mother's Day in Washington, DC</h5>
+                    <p>
+                        Check out DC’s national parks, Smithsonian museums, beautiful parks,...
+                    </p>
+                </div>
+            </div>
+            <div class="second__section_part5">
+                <div class="second__section_image">
+                    <div class="front">
+                        <img src="/images/Discover-D.C.---Monuments-and-Memorials-of-The-National-Mall-2_66E0AC3B-B1D2-457D-BFEE74835D668ACB_7d71f49d-1084-4423-8a3cb2a4e79592c8.jpg.webp" alt="image__second"
+                            class="second__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="second__part51">
+                    <h5>3 Days of Spring Adventures in Washington, DC</h5>
+                    <p>
+                        Celebrate Washington, DC in bloom with cherry blossoms and one-of-a-...
+                    </p>
+                </div>
+            </div>
+            <div class="second__section_part6">
+                <div class="second__section_image">
+                    <div class="front">
+                        <img src="./images/Flags_WashingtonMonument_Thumbnail.jpg.webp" alt="image__second"
+                            class="second__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="second__part61">
+                    <h5>The Best Things to Do This Memorial Day Weekend in Washington, DC</h5>
+                    <p>
+                        Pay tribute to America’s heroes and celebrate the start of summer wi...
+                    </p>
+                </div>
+            </div>
+            <div class="second__section_part7">
+                <div class="second__section_image">
+                    <div class="front">
+                        <img src="./images/CherryBlossoms_Hero.jpg.webp" alt="image__second" class="second__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="second__part71">
+                    <h5>Can't-Miss Spring Events, Exhibits, Festivals & Shows in Washington, DC</h5>
+                    <p>
+                        The nation's capital is filled with exciting experiences this spring...
+                    </p>
+                </div>
+            </div>
+            <div class="second__section_part8">
+                <div class="second__section_image">
+                    <div class="front">
+                        <img src="./images/Meridian_Hill_Park.gif.webp" alt="image__second" class="second__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="second__part81">
+                    <h5>12 Inspiring Public Parks & Gardens in Washington, DC</h5>
+                    <p>
+                        When it comes to parks and gardens, few cities can match DC's offeri...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------mailbox--------------->
+    <div class="mailbox">
+        <div class="mailbox_text">
+            <h3>Let's Take This to Your Inbox & Mailbox</h3>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width:100%">
+                        <img class="card-img-top" src="./images/cherry-blossom-sunset_jonlloydjr_yesmydccool.jpg.webp"
+                            alt="Card image">
+                        <div class="back_mailbox">
+                            <button><span>Order Now</span></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="mailbox_card">
+                                <h5 class="card-title">Order Your Free Visitors Guide</h5>
+                                <p class="card-text"> Learn why DC is a one of the best cities in the United States</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width:100%">
+                        <img class="card-img-top"
+                            src="./images/Capitol-Hill_AF0DD3B0-B530-4D26-B021C5954EE56752_b1c51e5f-406d-421b-90e4fda2843be4b3.jpg.webp"
+                            alt="Card image">
+                        <div class="back_mailbox">
+                            <button><span>signup now</span></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="mailbox_card">
+                                <h5 class="card-title">Receive the DC Insider eNewsletter</h5>
+                                <p class="card-text">A monthly email of trip inspiration, discounts, insider tips for
+                                    vis...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width:100%">
+                        <img class="card-img-top"
+                            src="./images/artyomshmatko-Instagram-1744-ig-17977156222398464.jpg.webp" alt="Card image">
+                        <div class="back_mailbox">
+                            <button><span>signup today</span></button>
+                        </div>
+                        <div class="card-body">
+                            <div class="mailbox_card">
+                                <h5 class="card-title">Sign up for the DC on the Go-Go e Newsletter</h5>
+                                <p class="card-text">A bi-weekly email curated exclusively for locals</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------featured-------------->
+    <div class="featured__secton">
+        <h4 class="hike1">Featured Itineraries</h4>
+        <div class="second__slider">
+            <div class="featured__section_part1">
+                <div class="featured__section_image">
+                    <div class="front">
+                        <img src="/images/eaton-hotel-dc.png.webp" alt="image__featured" class="featured__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="featured__part11">
+                    <h5>Guide to Having a Sustainable Vacation in Washington, DC</h5>
+                    <p>
+                        If you’re headed to the nation’s capital for a family vacation, this...
+                    </p>
+                </div>
+            </div>
+            <div class="featured__section_part2">
+                <div class="featured__section_image">
+                    <div class="front">
+                        <img src="/images/Thumbnail_NMAAHC_smithsonian.png.webp" alt="image__featured"
+                            class="featured__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="featured__part21">
+                    <h5>3 Days of Summer Fun in Washington, DC</h5>
+                    <p>
+                        Plan the perfect summertime trip with this DC itinerary full of muse...
+                    </p>
+                </div>
+            </div>
+            <div class="featured__section_part3">
+                <div class="featured__section_image">
+                    <div class="front">
+                        <img src="/images/family-picnicking-on-national-mall-by-lincoln-memorial.jpg.webp"
+                            alt="image__featured" class="featured__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="featured__part31">
+                    <h5>3 Days in Washington, DC for Families</h5>
+                    <p>
+                        Make the most out of your next family vacation in the nation's cap...
+                    </p>
+                </div>
+            </div>
+            <div class="featured__section_part4">
+                <div class="featured__section_image">
+                    <div class="front">
+                        <img src="/images/Mah-Ze-Dahr Bakery.jpeg.webp"
+                            alt="image__featured" class="featured__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="featured__part41">
+                    <h5>3 Days of Favorites in the Nation's Capital</h5>
+                    <p>
+                        See the best of everything Washington, DC has to offer – from the Na...
+                    </p>
+                </div>
+            </div>
+            <div class="featured__section_part5">
+                <div class="featured__section_image">
+                    <div class="front">
+                        <img src="/images/vp-kamala-the-wharf_yesmydccool.jpg.webp" alt="image__featured"
+                            class="featured__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="featured__part51">
+                    <h5>One-Day Itineraries for a Summer Trip While in Washington, DC</h5>
+                    <p>
+                        Plan your perfect Washington, DC summer adventure with a few off-the...
+                    </p>
+                </div>
+            </div>
+            <div class="featured__section_part6">
+                <div class="featured__section_image">
+                    <div class="front">
+                        <img src="/images/eaton-hotel-dc.png.webp" alt="image__featured" class="featured__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="featured__part61">
+                    <h5>3-Day Washington, DC Itinerary for Nature Lovers</h5>
+                    <p>
+                        Did you know Washington, DC is known as the City of Trees? DC has an...
+                    </p>
+                </div>
+            </div>
+            <div class="featured__section_part7">
+                <div class="featured__section_image">
+                    <div class="front">
+                        <img src="/images/20211028-BOB03529.jpg.webp" alt="image__featured" class="featured__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="featured__part71">
+                    <h5>3-Day Washington, DC Itinerary for Foodies</h5>
+                    <p>
+                        When you visit the nation's capital, you'll experience a dining scen...
+                    </p>
+                </div>
+            </div>
+            <div class="featured__section_part8">
+                <div class="featured__section_image">
+                    <div class="front">
+                        <img src="/images/Mah-Ze-Dahr Bakery.jpeg.webp"
+                            alt="image__featured" class="featured__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>SEE all ITINERARIES</button>
+                </div>
+                <div class="featured__part81">
+                    <h5>All Itineraries </h5>
+                    <p>
+                        When you visit the nation's capital, you'll experience a dining scen...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------- third section---------->
+    <div class="third__section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="slider3">
+                        <div class="third__section_part1">
+                            <img src="/images/aef_july_4_creative_1680x672_web_hero_126A4428-5056-BF65-D6D66D9D325AE76F_128c3e3e-5056-bf65-d6cc32507ab4e69a.jpg.webp"
+                                alt="Ekington_flea" class="third__section_image1">
+                            <figcaption>May<br>22<br>2023</figcaption>
+                            <div class="third__section_part11">
+                                <span><i class="fa fa-map-marker" aria-hidden="true" style="color:#7d3269;"> </i>
+                                    National Mall</span>
+                                <h5>July 4th Celebration</h5>
+                                <button class="third__button">View Details</button>
+                            </div>
+                        </div>
+                        <div class="third__section_part1">
+                            <img src="/images/PIXELBLOOM-Timeless-Butterflies-1-_-ARTECHOUSE-Studio_1E89550C-1E80-4344-8C367B81D35FB2F7_bc8d815a-fef0-4823-b3212c0e72500e51.jpg.webp"
+                                alt="Ekington_flea" class="third__section_image2">
+                            <figcaption>May<br>22<br>2023</figcaption>
+                            <div class="third__section_part11">
+                                <span><i class="fa fa-map-marker" aria-hidden="true" style="color:#7d3269;"> </i>
+                                    SouthWest & the Wharf</span>
+                                <h5>PIXELBLOOM:TIMELESS BUTTERFLIES</h5>
+                                <button class="third__button">View Details</button>
+                            </div>
+                        </div>
+                        <div class="third__section_part1">
+                            <img src="/images/2019_02_07_afternoon_tea_backroom_1_A47D6DE5-704B-473E-8850F671FE946612_e725c07d-733b-498c-a8d90cccefbb413b.jpg.webp"
+                                alt="Ekington_flea" class="third__section_image3">
+                            <figcaption>May<br>22<br>2023</figcaption>
+                            <div class="third__section_part11">
+                                <span><i class="fa fa-map-marker" aria-hidden="true" style="color:#7d3269;"> </i>
+                                    Foggy Bottom</span>
+                                <h5>Afternoon Tea at The Watergate Hotel</h5>
+                                <button class="third__button">View Details</button>
+                            </div>
+                        </div>
+                        <div class="third__section_part1">
+                            <img src="/images/0CB10E70-C1AE-4902-9A69-C80B6BE0AC83_9C91F19F-F77F-4F35-B7523D33BE3DC2A6_ffb42b23-3634-4d36-add4fc25b5776af2.jpg.webp"
+                                alt="Ekington_flea" class="third__section_image4">
+                            <figcaption>May<br>22<br>2023</figcaption>
+                            <div class="third__section_part11">
+                                <span><i class="fa fa-map-marker" aria-hidden="true" style="color:#7d3269;"> </i>
+                                    Dupont Circle</span>
+                                <h5>Speakeasy Bar & Hunt</h5>
+                                <button class="third__button">View Details</button>
+                            </div>
+                        </div>
+                        <div class="third__section_part1">
+                            <img src="/images/Retouched-Canal-Boat-Image_resized_C1113F5E-8D36-4B43-9D67FA091314C29B_df32ee4d-90f4-49d3-9cc97c288985a032.jpg.webp"
+                                alt="Ekington_flea" class="third__section_image5">
+                            <figcaption>May<br>22<br>2023</figcaption>
+                            <div class="third__section_part11">
+                                <span><i class="fa fa-map-marker" aria-hidden="true" style="color:#7d3269;"> </i>
+                                    Georgetown</span>
+                                <h5>Georgetown C & O Canal Boat Tours</h5>
+                                <button class="third__button">View Details</button>
+                            </div>
+                        </div>
+                        <div class="third__section_part1">
+                            <img src="/images/2019-03-04-11.33.14_419ADFCD-6F0E-45D1-B3E5EC29438C8D83_b3af8c11-2cf5-497f-b0ca3cee39cec411.jpg (1).webp"
+                                alt="Ekington_flea" class="third__section_image6">
+                            <figcaption>May<br>22<br>2023</figcaption>
+                            <div class="third__section_part11">
+                                <span><i class="fa fa-map-marker" aria-hidden="true" style="color:#7d3269;"> </i>
+                                    Capitol Hill</span>
+                                <h5>Experience the Main Reading Room in the Thomas...</h5>
+                                <button class="third__button">View Details</button>
+                            </div>
+                        </div>
+                        <div class="third__section_part1">
+                            <img src="/images/Eckington-Flea---Instagram-Stories_35DA8053-5056-BF65-D6C6135E3A9E960D_35dadae1-5056-bf65-d6b0c9b9f177b5d6.png.webp"
+                                alt="Ekington_flea" class="third__section_image7">
+                                <figcaption>May<br>26<br>2023</figcaption>
+                            <div class="third__section_part11">
+                                <span><i class="fa fa-map-marker" aria-hidden="true" style="color:#7d3269;"> </i>
+                                    Downtown</span>
+                                <h5>DC Black Pride</h5>
+                                <button class="third__button">View Details</button>
+                            </div>
+                        </div>
+                        <div class="third__section_part1">
+                            <img src="/images/2019-03-04-11.33.14_419ADFCD-6F0E-45D1-B3E5EC29438C8D83_b3af8c11-2cf5-497f-b0ca3cee39cec411.jpg (2).webp"
+                                alt="Ekington_flea" class="third__section_image8">
+                            <figcaption>May<br>22<br>2023</figcaption>
+                            <div class="third__section_part11">
+                                <span><i class="fa fa-map-marker" aria-hidden="true" style="color:#7d3269;"> </i>
+                                    Downtown</span>
+                                <h5>Presidential Neighborhood and Pennsylvania Avenue...</h5>
+                                <button class="third__button">View Details</button>
+                            </div>
+                        </div>
+                        <div class="third__section_part1">
+                            <img src="/images/AroundMVT-109_8E980E2D-A1EA-448A-9D9B672D349482E2_e96c73d4-23c0-45d1-97bb5c771765305c.jpg (1).webp"
+                                alt="Ekington_flea" class="third__section_image9">
+                            <figcaption>May<br>22<br>2023</figcaption>
+                            <div class="third__section_part11">
+                                <span><i class="fa fa-map-marker" aria-hidden="true" style="color:#7d3269;"> </i>
+                                    Mount Vernon Square</span>
+                                <h5>FRESHFARM Mount Vernon Triangle Market</h5>
+                                <button class="third__button">View Details</button>
+                            </div>
+                        </div>
+                        <div class="third__section_part1">
+                            <img src="/images/Eckington-Flea---Instagram-Stories_35DA8053-5056-BF65-D6C6135E3A9E960D_35dadae1-5056-bf65-d6b0c9b9f177b5d6.png.webp"
+                                alt="Ekington_flea" class="third__section_image10">
+                            <figcaption>May<br>20<br>2023</figcaption>
+                            <div class="third__section_part11">
+                                <span><i class="fa fa-map-marker" aria-hidden="true" style="color:#7d3269;"> </i>
+                                    NoMa</span>
+                                <h5>Ekington_flea</h5>
+                                <button class="third__button">View Details</button>
+                            </div>
+                        </div>
+                        <div class="third__section_part1">
+                            <img src="/images/2017-12-09-15.39.42-1_92BB90B4-78E6-4379-977B740E00FAD0DF_048f19bf-754c-4cae-91824997d9b9d305.jpg.webp"
+                                alt="Ekington_flea" class="third__section_image11">
+                            <figcaption>May<br>20<br>2023</figcaption>
+                            <div class="third__section_part11">
+                                <span><i class="fa fa-map-marker" aria-hidden="true" style="color:#7d3269;"> </i>
+                                    Georgetown</span>
+                                <h5>Historic Georgetown Tour</h5>
+                                <button class="third__button">View Details</button>
+                            </div>
+                        </div>
+                        <div class="third__section_part1">
+                            <img src="/images/cap-jazz_D75E167B-8322-4BE2-BF9568A5147660AB_0b7beb8e-f008-4a72-aa372c2a731ba3d3.jpg.webp"
+                                alt="Ekington_flea" class="third__section_image12">
+                            <figcaption>jun<br>02<br>2023</figcaption>
+                            <div class="third__section_part11">
+                                <span><i class="fa fa-map-marker" aria-hidden="true" style="color:#7d3269;"> </i>
+                                    Maryland</span>
+                                <h5>30th Annual capital jazz fest</h5>
+                                <button class="third__button">View Details</button>
+                            </div>
+                        </div>
+                        <div class="third__section_part1">
+                            <img src="/images/Pride-on-the-Pier_AF3046A9-5056-BF65-D69440F9D8F9F9F9_af3aaca6-5056-bf65-d63cc3e18294efd2.jpg.webp"
+                                alt="Ekington_flea" class="third__section_image13">
+                            <figcaption>Jun<br>10<br>2023</figcaption>
+                            <div class="third__section_part11">
+                                <span><i class="fa fa-map-marker" aria-hidden="true" style="color:#7d3269;"> </i>
+                                    Southwest & and The Wharf</span>
+                                <h5>Pride on the Pier and Fireworks Show</h5>
+                                <button class="third__button">View Details</button>
+                            </div>
+                        </div>
+                        <div class="third__section_part1">
+                            <img src="/images/Lafayette-3_E8B32B43-AC77-4EAB-90143CF0D42A5631_e7041ef6-8753-4194-a56eab942f793ca7.jpg.webp"
+                                alt="Ekington_flea" class="third__section_image14">
+                            <figcaption>Jun<br>10<br>2023</figcaption>
+                            <div class="third__section_part11">
+                                <span><i class="fa fa-map-marker" aria-hidden="true" style="color:#7d3269;"> </i>
+                                    Downtown</span>
+                                <h5>French Connections Walking Tour</h5>
+                                <button class="third__button">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="third__section_partNext">
+                        <span><i class="fa fa-ticket" aria-hidden="true"></i>Featured Events</span>
+                        <h5>Here's what's going on in Washington, DC</h5>
+                        <p>Discover the best things to do in Washington, DC, from events happening right now to
+                            annual festivals and so much more.</p>
+                        <div class="third__button00">
+                            <button class="third__button1">View All Events</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------fourth section-------->
+    <div class="fourth__section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="fourth__section1">
+                        <h4>Hotels That Fit Your Style</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fourth__section2">
+            <div class="fourth__section21">
+                <div class="fourth__section211">
+                </div>
+                <h4>The Most Charming Boutique Hotels</h4>
+                <p>
+                    Find the best boutique hotels in Washington, DC
+                </p>
+                <h6>Read More</h6>
+            </div>
+            <div class="fourth__section22">
+                <div class="fourth__section211">
+                </div>
+                <h4>14 Kid-Friendly Hotels in Washington, DC
+                </h4>
+                <p> Book an unforgettable family vacation at one of these hotels in the nation’s capital.
+                </p>
+                <h6>Read More</h6>
+            </div>
+            <div class="fourth__section23">
+                <div class="fourth__section211">
+                </div>
+                <h4> 9 Historic Hotels in Washington, DC</h4>
+                <p> These famous places to stay can serve as the perfect backdrop to your DC visit.
+                </p>
+                <h6>Read More</h6>
+            </div>
+        </div>
+    </div>
+    <!-----------iconic--------------->
+    <div class="Iconic__secton">
+        <h4 class="hike2">Iconic Washington,DC</h4>
+        <div class="second__slider">
+            <div class="Iconic__section_part1">
+                <div class="Iconic__section_image">
+                    <div class="front">
+                        <img src="./images/Capitol-Hill_AF0DD3B0-B530-4D26-B021C5954EE56752_b1c51e5f-406d-421b-90e4fda2843be4b3.jpg.webp"
+                            alt="image__Iconic" class="Iconic__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="Iconic__part11">
+                    <h5>Visit the US Capitol </h5>
+                    <p>
+                        The Capitol Visitor Center is the main entrance to the U.S. Capitol ...
+                    </p>
+                </div>
+            </div>
+            <div class="Iconic__section_part2">
+                <div class="Iconic__section_image">
+                    <div class="front">
+                        <img src="./images/jaszzhang_woman-walking-by-national-capital-columns-national-arboretum_yesmydccool.jpg.webp"
+                            alt="image__Iconic" class="Iconic__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="Iconic__part21">
+                    <h5>Explore the 17 Smithsonian Museums</h5>
+                    <p>
+                        History, science, art and culture come alive at these free DC museum...
+                    </p>
+                </div>
+            </div>
+            <div class="Iconic__section_part3">
+                <div class="Iconic__section_image">
+                    <div class="front">
+                        <img src="./images/Cocktail-Group_E3139579-2FF2-49C9-BE2F17F3BA464E67_1d0310f6-97e2-4ad4-919946fee60d5c61.jpg.webp" alt="image__Iconic" class="Iconic__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="Iconic__part31">
+                    <h5>Gorge at Travel-Worthy Michelin Star Restaurants</h5>
+                    <p>
+                        For roving gastronomes and travelers who revel in experiences center...
+                    </p>
+                </div>
+            </div>
+            <div class="Iconic__section_part4">
+                <div class="Iconic__section_image">
+                    <div class="front">
+                        <img src="./images/eandmbambrick-woman-at-library-of-congress_mydccool-homepage-02.01.17.jpg.webp"
+                            alt="image__Iconic" class="Iconic__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="Iconic__part41">
+                    <h5>Tour the Library of Congress</h5>
+                    <p>
+                        The largest library in the world makes for a fascinating historical ...
+                    </p>
+                </div>
+            </div>
+            <div class="Iconic__section_part5">
+                <div class="Iconic__section_image">
+                    <div class="front">
+                        <img src="./images/artyomshmatko-Instagram-1744-ig-17977156222398464.jpg.webp" alt="image__Iconic"
+                            class="Iconic__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="Iconic__part51">
+                    <h5>Go Inside the White House</h5>
+                    <p>
+                        Everything you need to know about planning a visit to the country’s ...
+                    </p>
+                </div>
+            </div>
+            <div class="Iconic__section_part6">
+                <div class="Iconic__section_image">
+                    <div class="front">
+                        <img src="./images/Capitol-Hill_AF0DD3B0-B530-4D26-B021C5954EE56752_b1c51e5f-406d-421b-90e4fda2843be4b3.jpg.webp"
+                            alt="image__Iconic" class="Iconic__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="Iconic__part61">
+                    <h5>Devour a Classic Half Smoke at Ben’s Chili Bowl</h5>
+                    <p>
+                        Ben's Famous Chili Half Smoke, voted Washington's signature dish. Ot...
+                    </p>
+                </div>
+            </div>
+            <div class="Iconic__section_part7">
+                <div class="Iconic__section_image">
+                    <div class="front">
+                        <img src="./images/Flags_WashingtonMonument_Thumbnail.jpg.webp" alt="image__Iconic"
+                            class="Iconic__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>Read More</button>
+                </div>
+                <div class="Iconic__part71">
+                    <h5>See the Lincoln Memorial</h5>
+                    <p>
+                        The iconic memorial built to honor the 16th U.S. president is a must...
+                    </p>
+                </div>
+            </div>
+            <div class="Iconic__section_part8">
+                <div class="Iconic__section_image">
+                    <div class="front">
+                        <img src="./images/boburnett-instagram-vertical-georgetown-yes-mydccool.jpg.webp"
+                            alt="image__Iconic" class="Iconic__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>SEE all ITINERARIES</button>
+                </div>
+                <div class="Iconic__part81">
+                    <h5>Discover Historic Georgetown </h5>
+                    <p>
+                        The perfect intersection of historic charm and upscale modernity hap...
+                    </p>
+                </div>
+            </div>
+            <div class="Iconic__section_part9">
+                <div class="Iconic__section_image">
+                    <div class="front">
+                        <img src="./images/embassy-performance-during-passport-dc_ddc-photo.jpg.webp" alt="image__Iconic"
+                            class="Iconic__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>SEE all ITINERARIES</button>
+                </div>
+                <div class="Iconic__part91">
+                    <h5>Indulge Your Inner Spy at the International Spy Museum </h5>
+                    <p>
+                        The modern museum offers enough spy-related intrigue and interactive...
+                    </p>
+                </div>
+            </div>
+            <div class="Iconic__section_part10">
+                <div class="Iconic__section_image">
+                    <div class="front">
+                        <img src="./images/Flags_WashingtonMonument_Thumbnail.jpg.webp" alt="image__Iconic"
+                            class="Iconic__images">
+                    </div>
+                </div>
+                <div class="back">
+                    <button>SEE all ITINERARIES</button>
+                </div>
+                <div class="Iconic__part101">
+                    <h5>Stroll Along the National Mall</h5>
+                    <p>
+                        The National Mall is America’s most-visited national park, where the...
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------trip---------------->
+    <div class="trip__section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="trip__section1">
+                        <h4>Plan the trip of a lifetime</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="trip__section2">
+            <div class="trip__section21">
+                <div class="trip__section211">
+                </div>
+                <h4>Food & Drink Trends to Try Right Now</h4>
+                <p>
+                    DC is the place to be if you crave unique foodie experiences. From Union Market to weekend farmers’
+                    markets celebrity chefs, check out the food crazes that color the city's dining scene.
+                </p>
+                <h6>Read More</h6>
+            </div>
+            <div class="trip__section22">
+                <div class="trip__section211">
+                </div>
+                <h4>100+ Free Things to Do
+                </h4>
+                <p>
+                    Take advantage of Washington, DC’s numerous free events, museums, tours, attractions &amp; more
+                </p>
+                <h6>Read More</h6>
+            </div>
+            <div class="trip__section23">
+                <div class="trip__section211">
+                </div>
+                <h4>60+ Things to Do This May in Washington, DC</h4>
+                <p>
+                    Enjoy spring and summer in the nation’s capital, from holidays like Mother’s Day and Memorial Day to
+                    new plays, museum exhibits, concerts and celebrations.
+                </p>
+                <h6>Read More</h6>
+            </div>
+        </div>
+    </div>
+    <!-------------map---------------->
+    <div class="mapping">
+        <div class="map">
+            <div class="map1">
+                <div class="map11">
+                    <h4>Explore Our Neighborhoods</h4>
+                    <h2>Capitol Riverfront</h2>
+                    <p>
+                        From the late 19th century through World War II, the riverside blocks south of
+                        the U.S. Capitol were home to the industrial Washington Navy Yard, an area that has been…
+                    </p>
+                    <button>Start Exploring</button>
+                </div>
+                <div class="map12">
+                    <iframe class="map_image"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.56659515447!2d77.46612716531955!3d12.954280234682084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1685009323813!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+            <div class="map2">
+                <div class="map21">
+                    <h4>Explore Our Neighborhoods</h4>
+                    <h2>Capitol Hill</h2>
+                    <p>
+                        Capitol Hill is one of the city’s most popular places to live,
+                        with 19th-century rowhouses and a market plus a vibrant nightlife and dining scene. Politicos,
+                        young…
+                    </p>
+                    <button>Start Exploring</button>
+                </div>
+                <div class="map22">
+                    <iframe class="map_image"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12422.018875522193!2d-77.01972033805082!3d38.889572049436374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b829c469e329%3A0x2b85169381fa9d8b!2sCapitol%20Hill!5e0!3m2!1sen!2sin!4v1685026192139!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+            <div class="map3">
+                <div class="map31">
+                    <h4>Explore Our Neighborhoods</h4>
+                    <h2>Brookland</h2>
+                    <p>
+                        Home to the Catholic University of America since 1887, the Northeast
+                        neighborhood of Brookland has developed into a church, chapel and
+                        monastery-filled zone nicknamed "Little Rome…
+
+                    </p>
+                    <button>Start Exploring</button>
+                </div>
+                <div class="map32">
+                    <iframe class="map_image"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3103.597403150045!2d-76.9965957241175!3d38.933178544592145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c7ee0e16f491%3A0x9ca6267c67bbe60a!2sBrookland%20Sta%2C%20Washington%2C%20DC%2020017%2C%20USA!5e0!3m2!1sen!2sin!4v1685026248426!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+            <div class="map4">
+                <div class="map41">
+                    <h4>Explore Our Neighborhoods</h4>
+                    <h2>Anacostia</h2>
+                    <p>
+                        As one of America’s most unique cities, Washington, DC seamlessly offers a
+                        full range of international, national and local cultural experiences. Explorers interested in
+                        learning…
+                    </p>
+                    <button>Start Exploring</button>
+                </div>
+                <div class="map42">
+                    <iframe class="map_image"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12426.68560096379!2d-76.99331008806942!3d38.86287820580248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b9beeb177399%3A0xd363a646c8c8b596!2sAnacostia%2C%20Washington%2C%20DC%2020020%2C%20USA!5e0!3m2!1sen!2sin!4v1685026325947!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="map5">
+                <div class="map51">
+                    <h4>Explore Our Neighborhoods</h4>
+                    <h2>Adams Morgan</h2>
+                    <p>
+                        Adams Morgan is much more than a neighborhood with a crowded nightlife scene.
+                        You’ll find historic row houses around 18th Street, as well as a variety of independently owned
+                        stores…</h2>
+                    </p>
+                    <button>Start Exploring</button>
+                </div>
+                <div class="map52">
+                    <iframe class="map_image"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6208.303990025215!2d-77.04792630516269!3d38.920503284130646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7da5071482f%3A0x5f6de718c1617834!2sAdams%20Morgan%2C%20Washington%2C%20DC%2C%20USA!5e0!3m2!1sen!2sin!4v1685026370359!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+            <div class="map6">
+                <div class="map61">
+                    <h4>Explore Our Neighborhoods</h4>
+                    <h2>Woodley Park</h2>
+                    <p>
+                        North of Dupont Circle – and across Rock Creek Park from funky
+                        Adams Morgan – genteel Woodley Park was one of several uptown
+                        neighborhoods where 19th- and early 20th-century…
+                    </p>
+                    <button>Start Exploring</button>
+                </div>
+                <div class="map62">
+                    <iframe class="map_image"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6207.665728065872!2d-77.06315870516161!3d38.92779748326603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b62ae9457b57%3A0xeada1522355a399c!2sWoodley%20Park%2C%20Washington%2C%20DC%2020008%2C%20USA!5e0!3m2!1sen!2sin!4v1685026397081!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="map7">
+                <div class="map71">
+                    <h4>Explore Our Neighborhoods</h4>
+                    <h2>Virginia</h2>
+                    <p>
+                        Virginia dances between a historic past (it’s the birthplace of eight U.S. presidents
+                        and is filled with Civil War battlegrounds) and an urbane present. In cities and counties either
+                        a
+                        few miles or a…
+                    </p>
+                    <button>Start Exploring</button>
+                </div>
+                <div class="map72">
+                    <iframe class="map_image"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220430.958191081!2d-82.0611902045227!3d37.97824697701988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884cd670bdbcb2cd%3A0xc04e4149b746a695!2sVirginia%2C%20USA!5e0!3m2!1sen!2sin!4v1685026443402!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+            <div class="map8">
+                <div class="map81">
+                    <h4>Explore Our Neighborhoods</h4>
+                    <h2>Upper Northwest</h2>
+                    <p>
+                        DC's upper northwest neighborhoods, which include Glover Park,
+                        Tenleytown and the shop-filled Friendship Heights, offer glimpses
+                        of homes where real Washingtonians live…
+                    </p>
+                    <button>Start Exploring</button>
+                </div>
+                <div class="map82">
+                    <iframe class="map_image"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99302.08977036137!2d-77.14530595198687!3d38.94248060329408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7a40938b58b%3A0x1cd074f2a0ca6fd2!2sNorthwest%20Washington%2C%20Washington%2C%20DC%2C%20USA!5e0!3m2!1sen!2sin!4v1685026466797!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+        </div>
+        <div class="map9">
+            <ul>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <li>capitol riverfront</li>
+                        </div>
+                        <div class="col-md-4">
+                            <li>Capitol Hill</li>
+                        </div>
+                        <div class="col-md-4">
+                            <li>Anacostia</li>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <!------------news---------------->
+    <div class="news">
+        <div class="news__secton">
+            <h4 class="hike3">DC in the News</h4>
+            <div class="second__slider">
+                <div class="news__section_part1">
+                    <div class="news__section_image">
+                        <div class="front">
+                            <img src="/images/thumb_summer_kayaks.jpg.webp" alt="image__news" class="news__images">
+                        </div>
+                    </div>
+                    <div class="back">
+                        <button style="font-size: 14px;">See how we ranked</button>
+                    </div>
+                    <div class="news__part11">
+                        <h5>2023’s Best Summer Travel Destinations </h5>
+                        <p>
+                            WalletHub
+                        </p>
+                    </div>
+                </div>
+                <div class="news__section_part2">
+                    <div class="news__section_image">
+                        <div class="front">
+                            <img src="/images/Waldorf Astoria Washington DC _ Atrium Horizontal1.jpg.webp"
+                                alt="image__news" class="news__images">
+                        </div>
+                    </div>
+                    <div class="back">
+                        <button>Read More</button>
+                    </div>
+                    <div class="news__part21">
+                        <h5>World's Greatest Places 2023 - Washington, DC A new artistic identity</h5>
+                        <p>
+                            Time
+                        </p>
+                    </div>
+                </div>
+                <div class="news__section_part3">
+                    <div class="news__section_image">
+                        <div class="front">
+                            <img src="/images/friendship-archway-motto-by-hilton-washington-dc-city-center_hilton.jpg.webp"
+                                alt="image__news" class="news__images">
+                        </div>
+                    </div>
+                    <div class="back">
+                        <button>Read More</button>
+                    </div>
+                    <div class="news__part31">
+                        <h5>The Best Cities in the U.S.: 2022 Readers’ Choice Awards</h5>
+                        <p>
+                            Condé Nast Traveler
+                        </p>
+                    </div>
+                </div>
+                <div class="news__section_part4">
+                    <div class="news__section_image">
+                        <div class="front">
+                            <img src="/images/couple-crossing-bridge-in-rock-creek-park_ddc-photo.jpg.webp"
+                                alt="image__news" class="news__images">
+                        </div>
+                    </div>
+                    <div class="back">
+                        <button>Read More</button>
+                    </div>
+                    <div class="news__part41">
+                        <h5>The 25 Healthiest Cities in the United States (2022)</h5>
+                        <p>
+                            The Nessie
+                        </p>
+                    </div>
+                </div>
+                <div class="news__section_part5">
+                    <div class="news__section_image">
+                        <div class="front">
+                            <img src="/images/Discover-D.C.---Monuments-and-Memorials-of-The-National-Mall-2_66E0AC3B-B1D2-457D-BFEE74835D668ACB_7d71f49d-1084-4423-8a3cb2a4e79592c8.jpg.webp"
+                                alt="image__news" class="news__images">
+                        </div>
+                    </div>
+                    <div class="back">
+                        <button>Read More</button>
+                    </div>
+                    <div class="news__part51">
+                        <h5>The Best Cities in the United States in 2022</h5>
+                        <p>
+                            AFAR
+                        </p>
+                    </div>
+                </div>
+                <div class="news__section_part6">
+                    <div class="news__section_image">
+                        <div class="front">
+                            <img src="/images/jaszzhang_woman-walking-by-national-capital-columns-national-arboretum_yesmydccool.jpg.webp"
+                                alt="image__news" class="news__images">
+                        </div>
+                    </div>
+                    <div class="back">
+                        <button>Read More</button>
+                    </div>
+                    <div class="news__part61">
+                        <h5>22 of the best places to travel to in the U.S. in 2022</h5>
+                        <p>
+                            Business Insider
+                        </p>
+                    </div>
+                </div>
+                <div class="news__section_part7">
+                    <div class="news__section_image">
+                        <div class="front">
+                            <img src="/images/mandilindner-rock-creek-park_yesmydccool.jpg.webp" alt="image__news"
+                                class="news__images">
+                        </div>
+                    </div>
+                    <div class="back">
+                        <button>Read More</button>
+                    </div>
+                    <div class="news__part71">
+                        <h5>World's 20 Most Tranquil Cities</h5>
+                        <p>
+                            Travel + Leisure
+                        </p>
+                    </div>
+                </div>
+                <div class="news__section_part8">
+                    <div class="news__section_image">
+                        <div class="front">
+                            <img src="/images/dc-tezrah_hotel-zena_pride-event.jpg.webp" alt="image__news"
+                                class="news__images">
+                        </div>
+                    </div>
+                    <div class="back">
+                        <button>Read More</button>
+                    </div>
+                    <div class="news__part81">
+                        <h5>Lonely Planet travel experts offer incredible tips, insight and inspiration for your summer
+                            travel plans</h5>
+                        <p>
+                            Lonely Planet
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------last section-------->
+    <div class="last__section">
+        <div class="last_section1">
+            <div class="last_1">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/lgomez66-instagram-square-home-yes-mydccool.jpg.webp" class="card-img-top"
+                        alt="...">
+                    <figcaption><i class="fa fa-instagram" aria-hidden="true"></i>@lgomez66</figcaption>
+                </div>
+            </div>
+            <div class="last_12">
+                <h3>Share Your #MyDCcool Story</h3>
+                <p>During your time in DC, you're sure to have unforgettable experiences. Pictures are worth a thousand
+                    words, so make sure to share your favorite moments in the District with #MyDCcool, from moon-lit
+                    monument tours to decadent meals to museum marvels.</p>
+                <ul>
+                    <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+            <div class="last_13">
+                <img src="/images/nodoubterik-Instagram-1744-ig-17940875258475831-custom.jpg.webp">
+                <figcaption><i class="fa fa-instagram" aria-hidden="true"></i>@nodoubterik</figcaption>
+            </div>
+        </div>
+        <div class="last_section2">
+            <div class="last_2">
+                <img src="/images/melissamurphy131-instagram-vertical-home-yes-mydccool.jpg.webp">
+                <figcaption><i class="fa fa-instagram" aria-hidden="true"></i>@melissamurphy131</figcaption>
+            </div>
+            <div class="last_22">
+
+                <img src="/images/r_hkap202-Instagram-1744-ig-17960907730813885-custom.jpg.webp">
+                <figcaption><i class="fa fa-instagram" aria-hidden="true"></i>@r_hkap202</figcaption>
+            </div>
+            <div class="last_23">
+                <div class="card" style="width: 18rem;">
+                    <img src="/images/national-history-musuem_skylar_arias_adventures_yesmydccooll.jpg.webp"
+                        class="card-img-top" alt="...">
+                    <figcaption><i class="fa fa-instagram" aria-hidden="true"></i>@skylar_arias_adventures</figcaption>
+                </div>
+            </div>
+        </div>
+        <div class="last_section00">
+            <button>Load More</button>
+        </div>
+    </div>
+    <!-----------footer------>
+    <div class="footer__main">
+        <div class="footer_000">
+            <h6>Become a DC insider:</h6>
+            <input type="text" placeholder="Enter eMail Address">
+            <button class="footer_button">Next</button>
+        </div>
+        <div class="footer_1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>follow us:</h2>
+                    </div>
+                </div>
+            </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="/images/logo.svg">
+                        </div>
+                        <div class="col-md-10">
+                            <ul class="footer_11">
+                                <li>   <i class="fa fa-flag" aria-hidden="true"></i>  FREE VISITORS GUIDE |</li>
+                                <li>  <i class="fa fa-envelope-o" aria-hidden="true"></i> EMAIL SIGN UP |</li>
+                                <li>  <i class="fa fa-bicycle" aria-hidden="true"></i> ACCESSIBLE TOURISM GUIDE |</li>
+                                <li>  <i class="fa fa-lock" aria-hidden="true"></i>   MEMBER LOGIN</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_12">
+                    <ul>
+                        <li> 901 7th Street NW, 4th Floor, Washington, DC 20001-3719</li>
+                        <li>202-789-7000</li>
+                        <li>Fax: 202-533-0103</li>
+                    </ul>
+                </div>
+                <div class="footer_13">
+                    <ul>
+                        <li>Privacy Policy</li>
+                        <li>| About |</li>
+                        <li>Sitemap |</li>
+                        <li>Contact |</li>
+                        <li>Transportation |</li>
+                        <li>Research |</li>
+                        <li>© 2023 Washington.org. All Rights Reserved</li>
+                    </ul>
+                </div>
+            
+        </div>
+</body>
+<script src="./App.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+    integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</html>

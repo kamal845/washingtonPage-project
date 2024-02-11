@@ -1,0 +1,154 @@
+.last_section1{
+width:80%;
+margin:auto;
+display: flex;
+}
+.last_1{
+    cursor:pointer;
+}
+.last_13 img{
+    width:25vw;
+    cursor:pointer;
+}
+.last_12{
+width: 33%;
+font-family: "Brandon Grotesque W01 Bold";
+    margin: auto;
+    h3{
+        font-weight: bold;
+    }
+    p{
+        padding-top: 20px;
+        height: 270px;
+        color: #4d4d4d;
+        font-size:20px;
+        position:relative;
+    }
+    p:after{
+        position:absolute;
+        content:"";
+        background-color: #757575;
+        width: 200px;
+        height: 2px;
+        left: 0px;
+bottom:0px;
+    }
+    p:before{
+        position:absolute;
+        content: "\2605";
+        bottom:-12px;
+        right:150px;
+    }
+    ul li{
+        list-style: none;
+     border-radius:50px;
+     padding:8px;
+background-color:black;
+color:white;
+font-size:15px;
+     display:flex;
+     margin:0px 10px 0px 0px;
+    }
+    ul li:hover{
+        background-color:#7d3269;
+    }
+}
+.last_section2{
+    width:90%;
+    margin:auto;
+    height:65vh;
+    display: flex;
+    }
+    .last_2{
+        margin: -70px 0px 0px 0px;
+ img{
+    width:25vw;
+}
+    }
+    .last_22{
+        justify-content: flex-start;
+        align-items: flex-start;
+        text-align: left;
+        height:60vh;
+        margin: 0px 0px 0px 20px;
+        position:relative;
+       &:before{
+        position:absolute;
+        content: "\2605";
+        bottom:-30px;
+        color: #757575;
+        right:193px;
+       }
+       &:after{
+        position:absolute;
+        content:'';
+        width:2px;
+        height:90px;
+        background-color: #757575;
+        bottom:0px;
+        right:200px;
+       }
+       
+        img{
+    width:30vw;
+}
+    }
+    .last_23{
+        height:100vh;
+        width:30%;
+        margin:auto;
+    }
+.last_section00{
+    width:16%;
+    margin:auto;
+}
+
+    .last_section00 button{
+        padding: 9px 28px;
+        border: 2px solid #7d3269;
+        background-color: transparent;
+        color: #7d3269;
+        text-transform: uppercase;
+        font-weight: 500;
+        transition: all .3s;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+    
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            z-index: -2;
+        }
+    
+        &:before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background-color: #7d3269;
+            transition: all .3s;
+            z-index: -1;
+        }
+    
+        &:hover {
+color:white;
+            background-color: #7d3269;
+    
+            &:before {
+                width: 100%;
+            }
+        }
+    }
+figcaption{
+    text-align: right;
+    color:white;
+    margin:-30px 10px 0px 0px;
+}

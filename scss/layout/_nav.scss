@@ -1,0 +1,231 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+$font-size:18px;
+$first-color:#7d3269;
+$second-color:#222;
+$third-color:grey;
+$font-weight:bold;
+
+.navbar-right ul li{
+  display:flex;
+  font-family: "Brandon Grotesque W01 Bold";
+  padding:10px;
+  font-size:$font-size;
+  font-weight:$font-weight;
+  position: relative;
+  &:hover,&:after{
+color:$first-color;
+  }
+}
+.navbar-right i{
+  padding:12px;
+  border-radius: 50%;
+  border:3px solid transparent;
+  color:$second-color;
+  font-size:18px;
+  font-weight:$font-weight;
+  &:hover{
+color:$first-color;
+  }
+}
+.navbar-right ul li{
+  &:after{
+      position:absolute;
+      font-family: "Font Awesome 4 Free";
+      top:30px;
+      font-size:14px;
+      left:38px;
+      color:$third-color;
+  }
+  &:hover::after {
+    position:absolute;
+    content: "\2605";
+    color:$third-color;
+  }
+ }
+.Main__navbar {
+  position:fixed;
+  background-color: white;
+  width:100%;
+  z-index:10;
+
+}
+
+  nav.my-navbar.navbar{
+    padding:0px;
+  }
+
+.right-nav {
+//   width:100%;
+//   height:100%;
+  .side-menu {
+    width:66%;
+    top:0;
+    // height:10vh;
+    position:fixed;
+    left:450px;
+    transition: all .5s;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    z-index:30;
+    }
+  }
+  .side-menu.show {
+    left:-990px;
+    }
+  ul{
+    display:flex;
+    margin:20px 0px 0px 0px;
+  }
+  .Main__navbar{
+    width:100%;
+    // display:inline-block;
+    // background-image: url(../images/bg.webp);
+    margin:0px;
+    position:fixed;
+    z-index: 1;
+    padding:0px;
+    height: 8%;
+    .left-nav{
+        width: 20%;
+        position:fixed;
+        margin:60px 0px 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: auto;
+    }
+    .right-nav{
+        width:80%;
+      display:inline-block;
+      }
+  }
+.navbar__logo{
+    width:50px;
+    margin: 5px 20px 0px 20px;
+}
+a.toggle-side i{
+    font-size:20px;
+    color:$first-color;
+}
+i.fa.fa-star{
+    color:$third-color;
+}
+li.nav-active{
+    color:$first-color;
+  
+}
+
+ul.dropdown li{
+    border-bottom:1px solid black;
+    font-size: 16px;
+    font-weight:lighter;
+    background-color:white;
+    color:$first-color;
+    padding:10px 10px 10px 10px;
+&:hover{
+color:white;
+background-color: $first-color;
+}
+}
+.dropdown{
+    position:relative;
+    color:$first-color;
+.dropdown-content{
+    position: absolute;
+    top:54px;
+    right:-25px;
+    display: none;
+}
+}
+i.fa.fa-globe{
+    color:$first-color; 
+}
+
+i.fa.fa-caret-down{
+    padding: 0 !important;  
+}
+
+a{
+    color:none;
+    text-decoration: none;
+}
+.col-md-3{
+  padding: 0px !important;
+}
+.nav-active__dropmain{
+  display:none;
+position:fixed;
+width:100%;
+top:46px;
+left:0px;
+
+.nav-active__drop1{
+border:1px solid white;
+background: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/pic3.jpeg');
+height:100vh;
+}
+.nav-active__drop2{
+  border:1px solid white;
+  height:100vh;
+  background: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/p2.webp');
+  }
+  .nav-active__drop3{
+    border:1px solid white;
+    background: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/p1.webp');
+    height:100vh;
+    }
+    .nav-active__drop4{
+      border:1px solid white;
+      background: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/pic-4.webp');   
+      height:100vh;
+      }
+      h3{
+        color:white;
+        text-align: center;
+        display:grid;
+        height:100%;
+        font-weight: $font-weight;
+      }
+}
+i.fa.fa-plus{
+  margin: 0px !important;
+  color: white;
+  border: 1px solid white;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.collapse p{
+  font-size: 20px;
+  width: 12vw;
+  margin: auto;
+  text-align: left;
+  height:100vh;
+}
+li.nav-active:hover > .nav-active__dropmain{
+  display:block;
+  cursor:pointer;
+}
+
+i.fa.fa-caret-right{
+  color:white;
+  border: 1px solid white;
+  font-size: 20px;
+  font-weight: lighter;
+padding:10px 15px 10px 15px;
+}
+
+.pink1{
+  background: linear-gradient(to left, rgba(240, 182, 254, 0.204), rgba(240,182,254,0.204)), url('/images/pic3.jpeg');
+}
+.pink2{
+  background: linear-gradient(to left, rgba(240, 182, 254, 0.204), rgba(240,182,254,0.204)), url('/images/p2.webp');
+}
+.pink4{
+  background: linear-gradient(to left, rgba(240, 182, 254, 0.204), rgba(240,182,254,0.204)), url('/images/pic-4.webp');
+}
+//slider

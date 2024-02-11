@@ -1,0 +1,163 @@
+.trip__section {
+    .trip__section1 {
+        color: black;
+        font-size: 30px;
+        width:90%;
+        margin:auto;
+        padding:20px 0px 20px 0px;
+    }
+}
+.trip__section2{
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+    .trip__section21 {
+        display:inline-block;
+        width: 30%;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent), url('/images/Residents-August-Food-and-cocktails-108.jpg.webp');
+        height:100vh;
+        margin-left:50px;
+ text-align: center;
+ position:relative;
+ background-repeat: no-repeat;
+
+    } 
+    .trip__section22 {
+        display:inline-block;
+        width: 30%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent), url('/images/pexels-photo-13340353.jpeg');
+        height:100vh;
+        position:relative;
+        background-size:cover;
+        text-align: center;
+        background-repeat: no-repeat;
+    }
+
+    .trip__section23 {
+        display:inline-block;
+        width: 30%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent), url('/images/passport-dc-cultural-dancing-demonstration_ddc-photo0_50e5c0eb-5056-a348-3a7fa6a71d0f78ba.jpg.webp');
+        height:100vh;
+        position:relative;
+        background-size:cover;
+        text-align: center;
+     
+        background-repeat: no-repeat;
+    }
+    .trip__section21:hover{
+        width:70%;
+        animation-delay: 0.5s;
+        transition: all 2s ease-in-out;
+        background: linear-gradient(to top, rgba(125, 50, 105, 0.8), transparent), url('/images/Residents-August-Food-and-cocktails-108.jpg.webp'); 
+        }
+        .trip__section21:hover>.trip__section22{
+        width:10%;
+        transition: all 2s ease-in-out;
+        }
+        .trip__section21:hover>.trip__section23{
+        width:10%;
+        transition: all 2s ease-in-out;
+        }
+//
+.trip__section22:hover{
+    background: linear-gradient(to top, rgba(125, 50, 105, 0.8), transparent), url('/images/pexels-photo-13340353.jpeg'); 
+ 
+    width:70%;
+    animation-delay: 0.5s;
+    transition: all 2s ease-in-out;
+        }
+    .trip__section22:hover>.trip__section21{
+    width:10%;
+    transition: all 2s ease-in-out;
+    }
+    .trip__section22:hover>.trip__section23{
+    width:10%;
+    transition: all 2s ease-in-out;
+    }
+    //
+    .trip__section23:hover{
+ background: linear-gradient(to top, rgba(125, 50, 105, 0.8), transparent), url('/images/passport-dc-cultural-dancing-demonstration_ddc-photo0_50e5c0eb-5056-a348-3a7fa6a71d0f78ba.jpg.webp'); 
+        width:70%;
+        animation-delay: 0.5s;
+        transition: all 2s ease-in-out;
+        }
+        .trip__section23:hover>.trip__section21{
+        width:10%;
+        transition: all 2s ease-in-out;
+        }
+        .trip__section23:hover>.trip__section22{
+        width:10%;
+        transition: all 2s ease-in-out;
+        }
+.trip__section2 {
+    h4{
+        font-weight: bold;
+        font-family: "Brandon Grotesque W01 Bold",sans-serif;
+        color:white;
+        font-size:28px;
+    }
+    p{
+        font-size: 18px;
+        line-height: 1.35;
+        letter-spacing: 0.05em;
+    color:white;
+    }
+}
+.trip__section21,.trip__section22,.trip__section23 {
+    h4{
+padding:10px 10px 10px 10px;
+    }
+    p{
+        padding:10px 10px 10px 10px;
+    }
+    h6{
+        color:white;
+        font-weight:bold;
+        writing-mode: vertical-rl;
+        width:12%;
+        margin:auto;
+        padding-top:30px;
+        text-transform: uppercase;
+        display:none;
+    }
+}
+.trip__section211{
+    height:60vh;
+    margin:auto;
+}
+.trip__section21:after,.trip__section22:after,.trip__section23:after{
+    position:absolute;
+    content:"";
+    width:2px;
+    height:110px;
+    background-color:white;
+    bottom:0px;
+  display: none;
+}
+.trip__section21:before,.trip__section22:before,.trip__section23:before{
+    position:absolute;
+    content: "\2605";
+    color:white;
+   font-size: 20px;
+   bottom:110px;
+   left: 327px;
+ display: none;
+}
+
+.trip__section21:hover::after,.trip__section22:hover::after,.trip__section23:hover::after {
+   display: inline-block;
+   animation-delay: 5s;
+  }
+  .trip__section21:hover::before,.trip__section22:hover::before,.trip__section23:hover::before{
+    display: inline-block;
+    animation-delay: 5s;
+   }
+   .trip__section21:hover> h6,.trip__section22:hover> h6,.trip__section23:hover> h6{
+display: flex;
+   }
+
+
+
+
+   

@@ -1,0 +1,36 @@
+first we use command for setup this project
+node -v(for check the version of node)
+npm init(initialize)
+npm i npm (all package install)
+brew install sass/sass/sass(for Install on Mac OS X or Linux (Homebrew))
+npm node-sass(for node-module)
+sass --watch scss/style.scss:css/style.css(for compiling)
+
+
+optional:-
+npm i bootstrap(for bootstrap)
+
+important features for sass:-
+ 1.variable
+ 2.nesting
+ 3.partials & imports
+ 4.Mixins
+ 5.Extends
+ 6.Operators
+ 7.Functions
+ 8.conditional Directives
+ 9.loops
+
+<!---variable-->
+ Variable
+ kisi bhi color yaa element ko declare karna with name for example:- 
+ $main-color = red;
+ {color:$main-color}
+
+<!---nesting-->
+ek mai hi sab kuch likhna for nav{ ul{} li{}} etc..
+
+<!--partials and imports-->
+alag files banana aur usko main file mai import karna
+
+<!---Mixins-->

@@ -1,0 +1,95 @@
+.mailbox_text{
+    width:90%;
+    margin:auto;
+    padding: 10px 0px 10px 0px;
+}
+div.card{
+    border:none;
+    position:relative;
+    &:hover>.back_mailbox{
+        display:flex;
+        background-color: rgba(125,50,105,0.8);
+    }
+}
+div.card-body{
+    margin-top:-45px;
+    padding:0px 20px 0px 0px;
+border:none;
+    .card-title{
+        text-align: left;
+        color:black;
+        padding:10px 0px 10px 0px;
+         font-size:27px;
+    }
+    .card-text{
+        font-size:22px;
+        font-weight:light;
+        color:#4d4d4d;
+        padding:0px 0px 10px 0px;
+        text-align: left;
+    }
+}
+.mailbox_card{
+    background-color: white;
+    border: 1px solid rgb(252, 252, 252);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 10, 0.05);
+    padding:10px 10px 10px 10px;
+}
+.card:hover>.card-body{
+    transform: translateY(10px);
+    transition: 1s;
+}
+.card-img-top{
+    width:100%;
+}
+.back_mailbox{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    display: none;
+}
+.back_mailbox button {
+    padding: 9px 28px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #7d3269;
+        z-index: -2;
+    }
+
+    &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 100%;
+        background-color: white;
+        transition: all .3s;
+        z-index: -1;
+    }
+
+    &:hover {
+        color: #7d3269;
+
+        &:before {
+            width: 100%;
+        }
+    }
+}
